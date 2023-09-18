@@ -1,0 +1,68 @@
+.recentPost>h1 {
+    font-size: 30px;
+    background: -webkit-linear-gradient(#0ea5e9, #0bc9d6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.recentPost>p {
+    font-size: 20px;
+    color: gray;
+}
+
+.post {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+
+.postCard {
+    width: 600px;
+    height: auto;
+    padding: 10px;
+    display: flex;
+}
+
+.postImg {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.postTitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: #b9e0f2;
+}
+
+.postDescription,
+.postInfo {
+    font-size: 15px;
+    font-weight: 400;
+    color: #8a9ebd;
+}
+
+.postInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.postInfoSpan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.postCard:hover h3 {
+    color: #0bc9d6;
+}
+.postCard .postImg {
+    transition: transform 0.3s ease; /* Specify the transition property, duration, and easing function */
+}
+.postCard:hover .postImg{
+    transform: translateY(10px);
+} 

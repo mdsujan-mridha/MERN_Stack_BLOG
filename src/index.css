@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Neucha&family=Patrick+Hand&family=Special+Elite&display=swap');
 
 :root {
-
+  scroll-behavior: smooth;
   color: #fbfcfc;
   background-color: #1b2631;
   --primary-color: #1b2631;
@@ -17,6 +17,40 @@
   margin-right: auto;
   padding-left: 80px;
   padding-right: 80px;
+}
+
+/* styles.css or your preferred stylesheet */
+/* Custom Scrollbar Track */
+::-webkit-scrollbar {
+  width: 2px;
+  /* Width of the scrollbar */
+}
+
+/* Custom Scrollbar Thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #0bc9d6;
+  /* Color of the scrollbar thumb */
+}
+
+/* Optional: Hover style for the scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: #0bc9d6;
+}
+
+::-moz-scrollbar {
+  width: 2px; /* Width of the scrollbar */
+}
+
+/* Custom Scrollbar Thumb for Firefox */
+/* Note the -moz prefix for Firefox */
+::-moz-scrollbar-thumb {
+  background: #0bc9d6; /* Color of the scrollbar thumb */
+}
+
+/* Optional: Hover style for the scrollbar thumb in Firefox */
+/* Note the -moz prefix for Firefox */
+::-moz-scrollbar-thumb:hover {
+  background: #0bc9d6;;
 }
 
 @media screen and (max-width: 1536px) {
