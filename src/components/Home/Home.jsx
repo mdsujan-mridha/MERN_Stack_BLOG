@@ -3,6 +3,8 @@ import Hero from './Hero';
 import PopularCategory from './PopularCategory';
 import RecentPost from './RecentPost';
 import Featured from './Featured';
+import Utils from './Utils';
+
 
 const Home = () => {
     return (
@@ -11,6 +13,7 @@ const Home = () => {
             <PopularCategory />
             <RecentPost />
             <Featured />
+            <Utils />
         </div>
     );
 };
